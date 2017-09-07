@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        body,
+        html {
+            margin:0px;
+            background-color: #3c1f78;
+            overflow: hidden !important;
+            pointer-events: none;
+        }
+
+        * {
+            overflow: hidden !important;
+            pointer-events: none !important;
+        }
+        .sheet-bg {
+            background-image: url('a.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-color: #3c1f78;
+            position: fixed;
+            left: 50vw;
+            width: 787px;
+            height: 1344px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            transform-origin: 0 0;
+        }
+
+        .sheet-container {
+            width: 666px;
+            height: 568px;
+            overflow: hidden;
+            margin-top: 287px;
+            border: 3px solid white;
+            transform: scale(1.1);
+        }
+
+
+        .sheet-container iframe {
+            width: 700px;
+            height: 600px;
+            border: none;
+            background-color: #3c1f78;
+            background-image: url('tail-spin.svg');
+            background-position: 47% 47%;
+            background-size: 70px;
+            background-repeat: no-repeat;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="sheet-bg">
+        <div class="sheet-container">
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTRkXvCVgoWZFHis52PeLbYO2HzcRKIIT3vZGlXG_m6B8qJ-GCAkGEQl4ei48OOJaFn4C-O530fi6lP/pubhtml?gid=1987913793&amp;single=true&amp;widget=false&amp;headers=false&amp;range=A5:E25&amp;chrome=false">
+            </iframe>
+        </div>
+    </div>
+    <script>
+        var container = document.querySelector('.sheet-bg')
+        function getScale(){
+            return Math.min(innerWidth / 787,innerHeight/1344)
+        }
+        container.style.transform = 'scale(' + getScale() + ') translateX(-50%)';
+        window.onresize = function(){
+            container.style.transform = 'scale(' + getScale() + ') translateX(-50%)';
+        }
+
+    </script>
+</body>
+
+</html>
