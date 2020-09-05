@@ -5,7 +5,7 @@ Vo Thanh Dat
 |  |  |
 | ------:| -----------:|
 | Full Name  | Vo Thanh Dat |
-| Education | Bach Khoa University HCM City |
+| Education | Bach Khoa University (BKU) |
 | Major | Computer Science |
 | Email | thanhdat1710@gmail.com |
 | Linkedin |   https://www.linkedin.com/in/vothanhdat |
@@ -15,26 +15,37 @@ Vo Thanh Dat
 
 Summary
 ------
-More than 4 years of experience with both backend and frontend development
+More than 5 years of experience with both backend and frontend development
 
-- Fullstack Engineer (currently):
-    + Frontend: Single-page Application with Vue, React, TypeScript, Webpack, CSS/SASS/Stylus ...
-    + BackEnd : Micro-service, Node.js, Python, MySQL, MongoDB, Redis, Elastic Search, InfluxDB, GCP ...
+- Nodejs Backend Engineer (currently):
+   + Resource manage system with Firestore
+   + Real-time and autoscale message system with Redis
+   + Real-time and autoscale telecom system with Redis, Mongodb.
+   + Other projects with Mysql, Mongo, Redis, Elasticsearch, Influxdb, Google Cloud Platform
+
+- Frontend Engineer (past):
+   + VueJS with Vuex, Typescript, Stylus, Jade,
+   + ReactJS with Webpack, SASS, React, Redux, Protocol-buffer
+
 
 - Game programing (past):
-    + Android game programing: canvas, open.
-    + HTML5 Game with canvas, pixi.js, GLSL and node.js backend
+    + HTML5 Game with canvas, pixi.js, GLSL and node.js backend 
+    + Android game programing: Canvas, OpenGL.
 
-* Specialties:
-    + Background in Data Structure & Algorithm, Computer Graphics, Mathematics ...
-    + Can work fluently in several programming: Typescript(JavaScript), Python, Golang ...
-    + Experienced working with high high availability/autoscale system, microservice architecture.
-    + Understand about multithreading, asynchronous programing ...
-    + Has experience working across many database: MySQL, MongoDB, Redis, Elastic Search, FireStore, Influx ...
-    + Working effectively with Git
-    + Has experience working with GCP
-    + Can working comfortably with both Linux and MacOS.
-    + Basic knowledge about blockchains and crypto currency. 
+Specialties:
+  + Background in Data Structure & Algorithm, Computer Graphics, Mathematics ...
+  + Can work fluently in several programming: JavaScript(Typescript), Python, Golang ... and feeling free for learn new programming language.
+  + Experienced working with high availability/autoscale system, microservice architecture.
+  + Understand about multithreading, asynchronous programing ...
+  + Has experience working across many database: MySQL, MongoDB, Redis, Elastic Search, Firestore, Influx ...
+  + Working effectively with Git
+  + Has experience working with GCP
+  + Working with both MacOS and Linux environment.
+  + Knowledge about blockchains and crypto currency.
+  + Basic about Algorithmic Trading
+
+ 
+
 
 Experience 
 ------
